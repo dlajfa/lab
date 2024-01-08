@@ -1,7 +1,7 @@
 body {
   margin: 0;
   width: 100vw;
-  height: 80vh;
+  height: 50vh;
   font-family: monospace;
   background-color: #f3f3f3;
   display: flex;
@@ -19,4 +19,5 @@ body {
 .separator {
   font-size: 12vw;
   vertical-align: middle;
+  color: red;
 }
