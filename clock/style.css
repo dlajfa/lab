@@ -15,7 +15,7 @@ body {
 
 #clock {
   height: 50vh;
-  color: #CCCCCC;
+  color: #ccc;
   font-size: 20vw;
   font-weight: 900;
   display: flex;
