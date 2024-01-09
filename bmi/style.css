@@ -1,7 +1,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid grey;
 }
 
 html {
@@ -52,10 +51,15 @@ input {
   font-size: 1.5rem;
 }
 
+aside {
+  margin: 2rem auto 0;
+}
+
 table {
   width: 15rem;
   margin: 1.5rem auto;
   border-collapse: collapse;
+  color: #777;
 }
 
 td {
