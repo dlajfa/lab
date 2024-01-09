@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+  margin: 3rem 0 2rem;
+  font-size: 2.5rem;
+}
+
+fieldset {
+  border: none;
+}
+
+label, input {
+  display: block;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+input {
+  width: 10rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#button {
+  width: 6.18rem;
+  margin: 1.5rem auto;
+  font-size: 1.5rem;
+}
+
+#result {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+table {
+  width: 15rem;
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid #aaa;
+}
