@@ -66,3 +66,7 @@ td {
   padding: 5px;
   border: 1px solid #aaa;
 }
+
+input.invalid {
+  border: 2px solid red;
+}
