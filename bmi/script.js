@@ -9,7 +9,7 @@ button.addEventListener('click', handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
-  const height = Number(heightEl.value);
+  const height = Number(heightEl.value) / 100;
   const weight = Number(weightEl.value);
   const bmi = calculateBMI(height, weight);
   const category = categorize(bmi);
