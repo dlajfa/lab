@@ -10,10 +10,6 @@ setInterval(showTime, 1000);
 function showTime() {
   const now = new Date();
 
-  const year = now.getFullYear();
-  const month = now.getMonth() + 1;
-  const day = now.getDate();
-
   const hours = now.getHours();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
@@ -22,7 +18,7 @@ function showTime() {
   minutesEl.innerText = format(minutes);
   secondsEl.innerText = format(seconds);
 
-  dateEl.innerText = `${year}-${format(month)}-${format(day)}`;
+  dateEl.innerText = now.toDateString();
 }
 
 function format(count) {
