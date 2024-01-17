@@ -3,14 +3,11 @@
   box-sizing: border-box;
 }
 
-html {
-  width: 100vw;
-  height: 100vh;
+html, body {
+  height: 100%;
 }
 
 body {
-  width: 100%;
-  height: 100%;
   color: #ccc;
   font-family: Helvetica, sans-serif;
   background-color: #000;
